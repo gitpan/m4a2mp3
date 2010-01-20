@@ -1,0 +1,26 @@
+--- #YAML:1.0
+name:               m4a2mp3
+version:            1.01
+abstract:           Convert m4a FILES to mp3.
+author:
+    - Leo Charre leocharre at cpan dot org
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Carp:             1
+    Cwd:              3
+    File::Which:      0.05
+    LEOCHARRE::CLI2:  1.14
+    LEOCHARRE::Dir:   1.07
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
